@@ -5,10 +5,10 @@ public class unit2Espinosa18 {
         unit2Espinosa18 obj = new unit2Espinosa18();
         int x = 5;
         // Area of a circle
-        System.out.println(String.format("Area of Circle:  %.2f", obj.areaOfCircle(x)));
+        System.out.println(String.format("\n\n Area of Circle:  %.2f\n", obj.areaOfCircle(x)));
 
         // Area of a square
-        System.out.println(String.format("Area of Square:  %.2f", obj.areaOfSquare(x)));
+        System.out.println(String.format("Area of Square:  %.2f\n", obj.areaOfSquare(x)));
     }
 
     public double areaOfCircle(double radius) {
